@@ -5,6 +5,12 @@ CI only builds/tests what changed, instead of every project on every PR.
 Nx and Turborepo do this, but only if you buy into their whole build
 system. This is a standalone binary that answers just this one question.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
